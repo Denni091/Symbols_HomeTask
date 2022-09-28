@@ -16,7 +16,7 @@ public class StringHelper {
             System.out.println(charArray);
         }
 
-// 1.2 Обе строки не пустые, поэтому вывод будет пустой
+// 1.2 Обе строки не пустые, поэтому вывод будет String/Array is not Empty
         if (string.isEmpty()) {
             System.out.println("String is not empty");
         } else {
