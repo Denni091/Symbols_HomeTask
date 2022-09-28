@@ -4,7 +4,7 @@ import java.util.Locale;
 public class StringHelper {
 
     public static void workWithString() {
-        String string = " Some Text";
+        String string = "SomeText";
         String array = "I have car  ";
 
 // 1.1 Не уверен правильно или нет,но понял я так,если массив null,то я оповещаю! ->
@@ -18,21 +18,21 @@ public class StringHelper {
 
 // 1.2 Обе строки не пустые, поэтому вывод будет пустой
         if (string.isEmpty()) {
-            System.out.println("String is empty");
+            System.out.println("String is not empty");
         } else {
-            System.out.println("");
+            System.out.println("String is empty");
         }
         if (array.isEmpty()) {
-            System.out.println("String array is Empty");
+            System.out.println("String array is not empty");
         } else {
-            System.out.println("");
+            System.out.println("String array is empty");
         }
 
 // 1.3 Привел строку string к Upper Case, array к Lower Case
         final String upperCase = string.toUpperCase();
         final String lowerCase = array.toLowerCase();
 
-// 1.4 Убрал наличие пробелов в строке
+// 1.4 Убрал наличие возможных пробелов в строке
         final String trimString = string.trim();
         final String trimArray = array.trim();
 
